@@ -27,19 +27,19 @@ const Main = props =>　{
     }
     const aboutbtn = () => {
         var greet = document.getElementById("hello")
-        greet.innerHTML = 'about'        
+        greet.innerHTML = '勝田　博之'        
     }
     const workbtn = () => {
         var greet = document.getElementById("hello")
-        greet.innerHTML = 'works'         
+        greet.innerHTML = 'いろいろやってます'         
     }
 
     return(
         <div>
-        <h1 id="hello">Hello World</h1>
         <button onClick={homebtn}>Home</button>
         <button onClick={aboutbtn}>About</button>
         <button onClick={workbtn}>Works</button>
+        <h1 id="hello">Hello World</h1>
         <h1 id="result"></h1>
         </div>
     )
