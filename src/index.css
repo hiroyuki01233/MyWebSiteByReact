@@ -1,6 +1,33 @@
-#hello{
-    background-color: white;
+ul {
+	width: 200px;
+    margin-top: 350px;
+    margin-right: 50px;
+	padding: 0;
+	list-style-type: none;
+    background-color: #eeeeee;
+    position: fixed;
+    right: 0
 }
-#result{
-    background-color: white;
+li a {
+	display: block;
+	padding: 8px 16px;
+	text-decoration: none;
+	color: #000000;
+}
+li {
+	text-align: center;
+}
+li:last-child {
+	border-bottom: none;
+}
+li a.active {
+	color: #ffffff;
+	background-color: #da3c41;
+}
+li a:hover:not(.active) {
+	color: #ffffff;
+	background-color: #1b2538;
+}
+.main{
+    text-align: center;
 }
